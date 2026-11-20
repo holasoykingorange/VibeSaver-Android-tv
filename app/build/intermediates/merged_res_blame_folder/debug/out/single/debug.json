@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.tuusuario.dvdscreensaver.app-merged_res-20:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.tuusuario.dvdscreensaver.app-main-22:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tuusuario.dvdscreensaver.app-merged_res-20:/xml_accessibility_service_config.xml.flat",
+        "source": "com.tuusuario.dvdscreensaver.app-main-22:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.tuusuario.dvdscreensaver.app-merged_res-20:/xml_dream.xml.flat",
+        "source": "com.tuusuario.dvdscreensaver.app-main-22:/xml/dream.xml"
+    },
+    {
+        "merged": "com.tuusuario.dvdscreensaver.app-merged_res-20:/drawable_dvd.png.flat",
+        "source": "com.tuusuario.dvdscreensaver.app-main-22:/drawable/dvd.png"
+    },
+    {
+        "merged": "com.tuusuario.dvdscreensaver.app-merged_res-20:/layout_activity_main.xml.flat",
+        "source": "com.tuusuario.dvdscreensaver.app-main-22:/layout/activity_main.xml"
+    }
+]

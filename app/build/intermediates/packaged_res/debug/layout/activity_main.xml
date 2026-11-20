@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061923">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VibeSaver - TV Controls"
+            android:textColor="#F2F7FF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#0E2E3E"
+            android:padding="18dp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/darknessValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oscurecer: 80%"
+                android:textColor="#DCECFB"
+                android:textSize="22sp"
+                android:paddingBottom="8dp" />
+
+            <SeekBar
+                android:id="@+id/darknessBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="80"
+                android:progressTint="#5ED5F8"
+                android:thumbTint="#B8F2FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#0C2338"
+            android:padding="18dp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/dvdLogoValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logo DVD: DVD"
+                android:textColor="#D8F3FF"
+                android:textSize="20sp"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:id="@+id/logoPresetButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="LOGO: DVD"
+                android:textAllCaps="true"
+                android:textColor="#021621"
+                android:background="#9FE8FF"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/sizeValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tamaño: 1.00x"
+                android:textColor="#D8F3FF"
+                android:textSize="20sp"
+                android:paddingTop="6dp"
+                android:paddingBottom="8dp" />
+
+            <SeekBar
+                android:id="@+id/sizeBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="60"
+                android:progressTint="#67D9FF"
+                android:thumbTint="#CAF4FF" />
+
+            <TextView
+                android:id="@+id/speedValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Velocidad: 1.00x"
+                android:textColor="#D8F3FF"
+                android:textSize="20sp"
+                android:paddingTop="18dp"
+                android:paddingBottom="8dp" />
+
+            <SeekBar
+                android:id="@+id/speedBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:progressTint="#67D9FF"
+                android:thumbTint="#CAF4FF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startDreamButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="INICIAR SALVAPANTALLAS"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:background="#53657D"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/orientationButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="ORIENTACIÓN: LANDSCAPE"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:background="#243B4E"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/openSettingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="AJUSTES DE PANTALLA"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:background="#364C66"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/dimmerButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="OSCURECER PANTALLA"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:background="#1D4E66"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/remapButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="MAPPER TV (UP/DOWN/OK)"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:background="#192F3A"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
